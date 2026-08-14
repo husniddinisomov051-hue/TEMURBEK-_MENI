@@ -170,24 +170,4 @@ asosida kompaniyangiz uchun premium darajadagi saytlar yaratamiz.
 <p>© 2026 ProCompany. Barcha huquqlar himoyalangan.</p>
 </footer>
 
-<script>
-function animate(id,target){
-let el=document.getElementById(id);
-let count=0;
-let step=Math.ceil(target/100);
-let interval=setInterval(()=>{
-count+=step;
-if(count>=target){
-count=target;
-clearInterval(interval);
-}
-el.textContent=count;
-},20);
-}
-window.addEventListener("load",()=>{
-animate("s1",250);
-animate("s2",180);
-animate("s3",25);
-animate("s4",12);
-});
-</script>
+
